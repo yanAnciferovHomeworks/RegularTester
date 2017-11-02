@@ -30,7 +30,7 @@
         {
             this.GroupRegularEx = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.Text = new System.Windows.Forms.TextBox();
+            this.TextBox = new System.Windows.Forms.TextBox();
             this.IsMultiline = new System.Windows.Forms.CheckBox();
             this.IsRegister = new System.Windows.Forms.CheckBox();
             this.RegularText = new System.Windows.Forms.TextBox();
@@ -45,7 +45,7 @@
             // GroupRegularEx
             // 
             this.GroupRegularEx.Controls.Add(this.label2);
-            this.GroupRegularEx.Controls.Add(this.Text);
+            this.GroupRegularEx.Controls.Add(this.TextBox);
             this.GroupRegularEx.Controls.Add(this.IsMultiline);
             this.GroupRegularEx.Controls.Add(this.IsRegister);
             this.GroupRegularEx.Controls.Add(this.RegularText);
@@ -65,13 +65,14 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Текст";
             // 
-            // Text
+            // TextBox
             // 
-            this.Text.Location = new System.Drawing.Point(9, 97);
-            this.Text.Multiline = true;
-            this.Text.Name = "Text";
-            this.Text.Size = new System.Drawing.Size(542, 405);
-            this.Text.TabIndex = 4;
+            this.TextBox.Location = new System.Drawing.Point(9, 97);
+            this.TextBox.Multiline = true;
+            this.TextBox.Name = "TextBox";
+            this.TextBox.Size = new System.Drawing.Size(542, 405);
+            this.TextBox.TabIndex = 4;
+            this.TextBox.TextChanged += new System.EventHandler(this.Text_TextChanged);
             // 
             // IsMultiline
             // 
@@ -99,6 +100,7 @@
             this.RegularText.Name = "RegularText";
             this.RegularText.Size = new System.Drawing.Size(542, 20);
             this.RegularText.TabIndex = 1;
+            this.RegularText.TextChanged += new System.EventHandler(this.Text_TextChanged);
             // 
             // label1
             // 
@@ -156,7 +158,7 @@
 
         private System.Windows.Forms.GroupBox GroupRegularEx;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox Text;
+        private System.Windows.Forms.TextBox TextBox;
         private System.Windows.Forms.CheckBox IsMultiline;
         private System.Windows.Forms.CheckBox IsRegister;
         private System.Windows.Forms.TextBox RegularText;
