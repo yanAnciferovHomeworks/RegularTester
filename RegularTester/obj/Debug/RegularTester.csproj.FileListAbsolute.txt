@@ -1,0 +1,9 @@
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\bin\Debug\RegularTester.exe.config
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\bin\Debug\RegularTester.exe
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\bin\Debug\RegularTester.pdb
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.csprojResolveAssemblyReference.cache
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.Form1.resources
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.Properties.Resources.resources
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.csproj.GenerateResource.Cache
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.exe
+c:\users\anci_oq88\documents\visual studio 2013\Projects\RegularTester\RegularTester\obj\Debug\RegularTester.pdb
