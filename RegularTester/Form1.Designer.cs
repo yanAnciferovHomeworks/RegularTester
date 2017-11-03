@@ -83,6 +83,7 @@
             this.IsMultiline.TabIndex = 3;
             this.IsMultiline.Text = "многострочный поиск";
             this.IsMultiline.UseVisualStyleBackColor = true;
+            this.IsMultiline.CheckedChanged += new System.EventHandler(this.Text_TextChanged);
             // 
             // IsRegister
             // 
@@ -93,6 +94,7 @@
             this.IsRegister.TabIndex = 2;
             this.IsRegister.Text = "с учетом регистра";
             this.IsRegister.UseVisualStyleBackColor = true;
+            this.IsRegister.CheckedChanged += new System.EventHandler(this.Text_TextChanged);
             // 
             // RegularText
             // 

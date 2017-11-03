@@ -27,7 +27,17 @@ namespace RegularTester
 
                 Result.Items.Clear();
 
-                foreach (var item in Regex.Matches(Text, RegEx))
+                RegexOptions RO = 0;
+                if(IsMultiline.Checked){
+                    RO = RO | RegexOptions.Multiline;
+                }
+
+                if (!IsRegister.Checked)
+                {
+                    RO = RO | RegexOptions.IgnoreCase;
+                }
+
+                foreach (var item in Regex.Matches(Text, RegEx, RO))
                 {
                     Result.Items.Add(item);
                 }
